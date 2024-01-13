@@ -14,5 +14,9 @@ myArray.shift() // remove the value from tyhe starting of the array
 const newArr = myArray.join()  //converts the array from object to string
 ///console.log(typeof myArray); //object
 //console.log(typeof newArr);  //string
+//console.log(myArray2.slice(1,4)); // returns selected elements in an array, as a new array
+console.log(myArray2.splice(0,3));
+console.log(myArray2);
+
 
 
