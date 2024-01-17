@@ -19,8 +19,26 @@ myArray.shift() // remove the value from tyhe starting of the array
 const hero=["raja","baja","gaja"]
 const bhaii=[1,2,3,4]
 hero.push(bhaii)
-console.log(hero);
+// console.log(hero);
 
+const vansh = new Array(1,2,3,4)
+const ansh = new Array(19,20,35,47)
+//vansh.push(ansh) // the second array goes into as a index in the first array
+//console.log(vansh);
+//const bans = vansh.concat(ansh) // the array got spread in a single new array
+//console.log(bans);
+//const bans= [...ansh , ...vansh] // spread function , works same as concat
+//console.log(bans);
+//const bawa=[1,2,[3,4,[5,6]]] // array inside an array
+//console.log(bawa.flat(Infinity)); // all values in one array
+
+//console.log(Array.isArray([1,2,3])); // isArray returns boolean 
+//console.log(Array.isArray("vans")); // isArray returns boolean 
+//console.log(Array.from("vansh")); // from returns the string or number as an array
+let yo=1
+let yo1=2
+let yo3=4
+//console.log(Array.of(yo,yo1,yo3)); // of returns the values in an array form
 
 
 
