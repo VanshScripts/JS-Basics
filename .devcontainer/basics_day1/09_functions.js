@@ -49,6 +49,15 @@ function isLoggedIn(username) {
 console.log(isLoggedIn("vansh"));
 
 
+
+function bawa(){
+    const yo="vanshhhh"
+   // console.log(this.yo); // this does not work in functions
+   console.log(this); // contains a lot a things
+}
+bawa()
+
+
     
 
 
